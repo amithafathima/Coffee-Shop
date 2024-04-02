@@ -1,0 +1,325 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+  
+}
+header
+{
+height: 150px;
+width: 100%;
+background-color: rgb(245, 152, 85);
+
+}
+ header h1
+{
+text-align: center;
+font-size: 100px;
+color: rgb(80, 33, 2);
+font-family: Rubik Bubbles;
+}
+header h3
+{
+    text-align: center;
+    position: sticky;
+    top: 1px;
+}
+.main
+{
+    background-color: rgb(247, 194, 157);
+    height: 4710px;
+    width: 100%;
+}
+.main h1
+{
+    text-align: center;
+    font-size: 55px;
+    padding-top: 15px;
+}
+.main h2
+{
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    color:rgb(80, 33, 2); 
+    
+}
+.review
+{
+    height: 200px;
+    width: 1000px;
+    align-content: center;
+    margin-top:30px;
+    border: 2px solid black;
+    position: relative;
+    left: 175px;
+    margin-top: 55px;
+     border-radius: 25px;
+
+}
+.review p
+{
+font-size: 22px;
+padding: 25px;
+text-align: justify;
+padding-top: 35px;
+}
+.types
+{
+    height: 670px;
+    width: 100%;
+     /* background-color: aliceblue;  */
+    margin-top: 70px;
+    
+}
+.types p
+{
+font-size: 20px;
+ padding: 15px; 
+}
+.types h1
+{
+    
+font-size: 50px;
+font-family: Shadows Into Light;
+}
+.types ul li{
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* padding-top: 20px; */
+    line-height: 28px;
+}
+.brandz
+{
+    height: 1680px;
+    width: 100%;
+     /* background-color: aqua;  */
+    /* display: flex; */
+}
+.brandz h1
+{
+    
+font-size: 50px;
+font-family: Shadows Into Light;
+
+}
+.div1 img{
+    margin-left: 15px;
+    height:300px ;
+    width: 300px;
+    border: 1px solid rgb(245, 152, 85);
+    border-radius: 25px;
+}
+.starbucks
+{
+    height: 300px;
+    width: 900px;
+    /* background-color: white; */
+    margin: 30px;
+}
+.div1{
+    display: flex;
+   
+}
+.brandz h2
+{
+    font-size: 23px;
+    color: black;
+    text-align: start;
+    margin-left: 20px;
+    padding-top: 15px;
+}
+.brandz p
+{
+padding: 10px;
+font-size: 22px;
+line-height:28px ;
+padding-left: 20px;
+padding-right: 20px;
+}
+.Donuts
+{
+     width: 960px; 
+}
+.Donuts img
+{
+    height:300px ;
+    width: 300px;
+    margin-right:10px ;
+}
+.peets img
+{
+    height:300px ;
+    width: 300px;
+    margin-right:10px ;
+}
+.costa.img
+{
+    height:300px ;
+    width: 300px;
+    margin-right:10px ;
+}
+.mccafe.img
+{
+    height:300px ;
+    width: 300px;
+    margin-right:10px ;
+    box-shadow: 4px 5px 6px black;
+}
+.costa
+{
+    width: 960px;    
+}
+.gallery h1
+{
+    font-family: Shadows Into Light;
+    font-size: 50px;
+}
+.gallery
+{
+  background-color:rgb(245, 152, 85) ;
+  height: 1060px;
+  width: 1000px;
+  align-content: center;
+  border: 1px rgb(245, 152, 85);
+  border-style: solid;
+  border-radius: 25px;
+}
+.Gallery
+{
+    background-color:rgb(245, 152, 85) ;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    left: 20px;
+    height: 900px;
+    width: 900px;
+    align-content: center;
+}
+.gal img{
+    height: 250px;
+    width: 250px;
+    transform: scale(1);
+    transition: transform 0.2s ease;
+    margin: 20px;
+    align-content: center;
+    border: 1px solid rgb(245, 152, 85);
+    border-radius: 25px;
+    
+}
+.gallery h1
+{
+    margin-bottom: 25px;
+    
+}
+.gal:hover
+{
+    transform: scale(1.1);
+}
+.form
+{
+
+    height: 400px;
+    width: 700px;
+    background-color: rgb(245, 152, 85) ;
+    border: 2px solid black;
+    border-radius: 25px;
+     margin-top: 150px; 
+}
+.query
+
+{
+position: relative;
+top: 95px;
+margin-bottom: 10px;
+font-size: 29px;
+
+}
+input
+{
+   width: 400px;
+   height: 25px;
+}
+form
+{
+    position: relative;
+    top: 60px;
+}
+form h3
+{
+    position: relative;
+    top: 8px;
+}
+textarea
+{
+    position: relative;
+    top: 12px;
+}
+/*  */
+#footer{
+    width: 100%;
+    height: 215px;
+    background-color:rgb(245, 152, 85);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: solid 0px rgb(245, 152, 85) ;
+    border-radius: 25px;
+    position: relative;
+    top: 45px;
+    
+}
+#footercup{
+    font-size: 100px;
+    margin: 30px;
+    position: relative;
+    right: 350px;
+}
+#reachus{
+    font-family: Shadows Into Light;
+    font-size: 60px;
+    text-shadow: 2px 3px 4px;
+    /* margin: 30px; */
+}
+#address{
+    font-family: Shadows Into Light;
+    font-size: 60px;
+    text-shadow: 2px 3px 4px;
+    position: relative;
+    left: 300px;
+}
+#reachuspara{
+    font-size: 20px;
+    word-spacing: 20px;
+    position: relative;
+    /* bottom: 25px; */
+}
+#reachusend{
+     font-size: 20px;
+     padding-top: 8px;
+}
+#addresspara{
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px  0px  0px;
+    line-height: 25px;
+}
+#direction{
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
+.cup
+{
+    position: relative;
+    left: 140px;
+}
+.address
+{
+    position: relative;
+    right: 115px;
+}
